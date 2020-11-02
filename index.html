@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>TtRPG Survey</title>
+</head>
+
+<body>
+
+<h1>Hello and welcome. Thank you for participating in my survey.</h1>
+<p>The following survey is being used to collect data on TtRPG preferences in order to create a recommender engine for TtRPGs.</p>
+<p>The secondary purpose of this survey is to collect demographic data on the TtRPG community</p>
+
+<form action="welcome.php" method="post">
+
+Name (optional): <input type="text" name="name"><br>
+
+<br>
+
+Which of the following tabletop RPGs have you heard of?<br>
+<input type="checkbox" id="d&d" name="game1" value=0>
+<label for="game1">Dungeons and Dragons</label><br>
+
+<input type="checkbox" id="CoC" name="game2" value=1>
+<label for="game2">Call of Cthulu</label><br>
+
+<input type="checkbox" id="pathfinder" name="game3" value=2>
+<label for="game3">Pathfinder</label><br>
+
+<input type="checkbox" id="starfinder" name="game4" value=3>
+<label for="game4">Starfinder</label><br>
+
+<input type="checkbox" id="VtM" name="game5" value=4>
+<label for="game5">Vampire: The Masquerade</label><br>
+
+<input type="checkbox" id="WtA" name="game6" value=5>
+<label for="game6">Werewolf: The Apocalypse</label><br>
+
+<input type="checkbox" id="SWAoR" name="game7" value=6>
+<label for="game7">Star Wars Age of Rebellion</label><br>
+
+<input type="checkbox" id="SWEotE" name="game8" value=7>
+<label for="game8">Star Wars Edge of the Empire</label><br>
+
+<input type="checkbox" id="SWFaD" name="game9" value=8>
+<label for="game9">Star Wars Force and Destiny</label><br>
+
+<input type="checkbox" id="BitD" name="game10" value=9>
+<label for="game10">Blades in the Dark</label><br>
+
+<input type="checkbox" id="lancer" name="game11" value=10>
+<label for="game11">Lancer</label><br>
+
+<input type="checkbox" id="mechwarrior" name="game12" value=11>
+<label for="game12">Mechwarrior</label><br>
+
+<input type="checkbox" id="13thAge" name="game13" value=12>
+<label for="game13">13th Age</label><br>
+
+<input type="checkbox" id="burningWheel" name="game14" value=13>
+<label for="game14">Burning Wheel</label><br>
+
+<input type="checkbox" id="dungeonWorld" name="game15" value=14>
+<label for="game15">Dungeon World</label><br>
+
+<input type="checkbox" id="lasersAndFeelings" name="game16" value=15>
+<label for="game16">Lasers and Feelings</label><br>
+
+<input type="checkbox" id="SotDL" name="game17" value=16>
+<label for="game17">Shadow of the Demon Lord</label><br>
+
+<input type="checkbox" id="shadowrun" name="game18" value=17>
+<label for="game18">Shadowrun</label><br>
+
+<input type="checkbox" id="deadlands" name="game19" value=18>
+<label for="game19">Deadlands</label><br>
+
+<input type="checkbox" id="warhammer" name="game20" value=19>
+<label for="game20">Warhammer</label><br>
+
+<input type="checkbox" id="traveller" name="game21" value=20>
+<label for="game21">Traveller</label><br>
+
+<input type="checkbox" id="paranoia" name="game22" value=21>
+<label for="game22">Paranoia</label><br>
+
+<input type="checkbox" id="goblinville" name="game23" value=22>
+<label for="game23">Goblinville</label><br>
+
+<input type="checkbox" id="tOR" name="game24" value=23>
+<label for="game23">The One Ring</label><br>
+
+<input type="checkbox" id="LotFR" name="game25" value=24>
+<label for="game25">Legend of the Five Rings</label><br>
+
+<input type="checkbox" id="CtL" name="game26" value=25>
+<label for="game1">Changling: The Lost</label><br>
+
+<input type="checkbox" id="LotFP" name="game27" value=26>
+<label for="game27">Lamentations of the Flame Princess</label><br>
+
+<input type="checkbox" id="tenCandels" name="game28" value=27>
+<label for="game28">Ten Candels</label><br>
+
+
+<br>
+
+<!-- Gender Identity Question -->
+What is your gender identity? There are several similar options to choose from. If you feel comfortable doing so, please select if you are cis or trans. If you would prefer not to share this information, the options woman and man are available without any defining prefix.<br>
+
+<input type="radio" id="cisfem" name="gender" value=0>
+<label for="cisfem">Cis Woman</label><br>
+
+<input type="radio" id="transfem" name=="gender" value=1>
+<label for="transfem">Trans Woman</label><br>
+
+<input type="radio" id="cismasc" name="gender" value=3>
+<label for="cismasc">Cis Man</label><br>
+
+<input type="radio" id="transmasc" name="gender" value=4>
+<label for="transmasc">Trans Man</label><br>
+
+<input type="radio" id="fem" name="gender" value=5>
+<label for="fem">Woman</label><br>
+
+<input type="radio" id="masc" name="gender" value=6>
+<label for="masc">Man</label><br>
+
+<input type="radio" id="enby" name="gender" value=7>
+<label for="enby">Non-binary / Gender nonconforming</label><br>
+
+<input type="radio" id="agender" name="gender" value=8>
+<label for="agender">Agender</label><br>
+
+<input type="radio" id="noanswer" name="gender" value=9>
+<label for="noanswer">I prefer not to answer</label><br>
+
+<input type="radio" id="notlisted" name="gender" value=10>
+<label for="notlisted">Not specified above (please include in form input at the end of this survey)</label><br>
+
+</br>
+
+<!-- Age Question -->
+What is your age?<br>
+
+<input type="radio" id="under18" name="age" value=0>
+<label for="under18">Under 18</label><br>
+
+<input type="radio" id="18to24" name="age" value=1>
+<label for="18to24">18 to 24</label><br>
+
+<input type="radio" id="25to34" name="age" value=2>
+<label for="25to34">25 to 34</label><br>
+
+<input type="radio" id="35to44" name="age" value=3>
+<label for="35to44">35 to 44</label><br>
+
+<input type="radio" id="45to54" name="age" value=4>
+<label for="45to54">45 to 54</label><br>
+
+<input type="radio" id="55to64" name="age" value=5>
+<label for="55to64">55 to 64</label><br>
+
+<input type="radio" id="65to74" name="age" value=6>
+<label for="65to74">65 to 74</label><br>
+
+<input type="radio" id="over75" name="age" value=7>
+<label for="over75">75 or older</label><br>
+
+<br>
+
+Favorite Game: <input type="text" name="favGame"><br>
+<input type="submit">
+</form>
+
+</body>
+</html>
